@@ -1,5 +1,5 @@
 # Traccar-Suckless
-!YOU NEED IP OF YOUR TAILSCALE PC, NOT PHYSICAL (if isn't general network)!
+!YOU NEED IP OF YOUR TAILSCALE PC, NOT PHYSICAL (if isn't general network), GEOLOCATION CAN'T BE 100% NEAT!
 
 This is Traccar. But way easier. 
 
