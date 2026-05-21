@@ -1,5 +1,5 @@
 # Traccar-Suckless
-!YOU NEED IP OF YOUR TAILSCALE PC, NOT PHYSICAL (neither if general network)!
+!YOU NEED IP OF YOUR TAILSCALE PC, NOT PHYSICAL (if isn't general network)!
 
 This is Traccar. But way easier. 
 
