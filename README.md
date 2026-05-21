@@ -14,3 +14,19 @@ My project is a suckless alternative: it weighs ~2 MB, runs with a single comman
 (IMHO traccar overloaded.)
 
 Right now it is in development, has an apk file and a station in Python to keep an eye on the phone. If project will be have any popularity, then I will made support of many other OS, not only android.
+
+How to launch this?
+
+1. You should download traccar.apk (in releases) on the phone, and server.py (in releases) on the computer 
+
+2. Connect your phone and computer to general tailscale account (or local network)
+
+3. Check your PC IP in tailscale and enter in traccar suckless on phone. Use general port to connect.
+
+4. Download python, download requirements (download from source files) with "pip install requirements.txt", launch server with command "python server.py". Enter general port.
+
+5. Click on the phone "Start tracker" and wait until he finds satellite of GPS (around 1-3 mins). Done! Now you can watch for location of your phone.
+
+Why so long?
+
+Because of methods of searching, google cheating in this method: asks for location nearly located networks. TS searching for satellite and asks him for location.
